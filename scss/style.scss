@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Sen_Regular';
+    src: url(../fonts/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Sen_Bold';
+    src: url(../fonts/Sen-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Regular;
+    text-decoration: none;
+}
+
+body {
+    min-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: none;
+}
+
+
+@import 'header';
+@import 'presentation';

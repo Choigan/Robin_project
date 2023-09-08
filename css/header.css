@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    max-height: 88px;
+    width: 100vw;
+    background-color: black;
+    padding: 0 4%;
+}
+
+nav {
+    display: flex;
+}
+
+nav>button {
+    padding: 24px;
+    background: none;
+}
+
+nav>button:hover {
+    background: #5221E6;
+}
+
+.header_btn {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .header_btn {
+        display: block;
+    }
+
+    header>nav {
+        display: none;
+    }
+}
+
+.logo {
+    padding: 24px;
+}

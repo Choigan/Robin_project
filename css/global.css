@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Sen_Regular';
+    src: url(../fonts/Sen-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Sen_Bold';
+    src: url(../fonts/Sen-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Sen_Regular;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 1440px;
+    width: 100vw;
+    background-color: yellow;
+}
+
+button {
+    border: 0;
+}
+
+a {
+    color: white;
+}
